@@ -36,6 +36,7 @@
                 opacity: 0;
                 transform: translateY(-10px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -51,15 +52,15 @@
             0% {
                 transform: translateY(0);
             }
+
             50% {
                 transform: translateY(-10px);
             }
+
             100% {
                 transform: translateY(0);
             }
         }
-
-        
     </style>
 </head>
 
@@ -68,7 +69,8 @@
     <header class=" bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF]">
 
         <!-- nav bar section -->
-        <nav class="lg:px-[140px] lg:mt-[24px] flex justify-between items-center border-b border-b-[#179800] md:border-b-0 lg:mb-[90px] ">
+        <nav
+            class="lg:px-[140px] lg:mt-[24px] flex justify-between items-center border-b border-b-[#179800] md:border-b-0 lg:mb-[90px] ">
 
             <div class="flex justify-between gap-x-44  items-center">
                 <img class="lg:mt-[24px] mt-[12px] ml-[15px] mb-[14px] " src="c2-assets/logo-header.png" alt="">
@@ -88,7 +90,7 @@
                         <li><a>Contact us</a></li>
                     </ul>
                 </div>
-                
+
             </div>
 
             <div class="  hidden lg:flex">
@@ -116,197 +118,260 @@
                             d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                     </svg>
                 </a>
-                
+
                 <button
                     class="btn sora-normal hidden lg:inline-block text-[20px] btn-outline border-[#179800] text-black px-[30px] font-normal">Login</button>
                 <button
                     class="btn dis-none hidden lg:inline-block text-[20px] font-normal bg-[#179800] px-[30px] sora-normal text-white">Register</button>
-            </div>  
+            </div>
         </nav>
 
         <!-- banner section -->
 
         <section class="flex flex-col items-center text-center ">
-            <h1 class="text-[32px] lg:text-[56px] font-bold mt-[48px] lg:mt-0 mb-[16px] lg:mb-[32px] fade-in">Freshness <span class="text-[#179800]">
-                You Can <br>
-                Count
-            </span> On, Prices You’ll Love!</h1>
-            <p class="lg:text-[20px] font-normal mb-[16px] lg:mb-[37px] fade-in">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+            <h1 class="text-[32px] lg:text-[56px] font-bold mt-[48px] lg:mt-0 mb-[16px] lg:mb-[32px] fade-in">Freshness
+                <span class="text-[#179800]">
+                    You Can <br>
+                    Count
+                </span> On, Prices You’ll Love!</h1>
+            <p class="lg:text-[20px] font-normal mb-[16px] lg:mb-[37px] fade-in">Shop your daily essentials at
+                unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
             <img class="floating" src="c2-assets/hero-vegetables.png" alt="">
         </section>
     </header>
 
     <main>
         <!-- Services section -->
-         <section class="lg:w-[1320px] w-10/12 mx-auto">
+        <section class="lg:w-[1320px] w-10/12 mx-auto">
             <h1 class="mt-[48px] mb-[32px] text-[24px] lg:text-[36px] font-semibold text-[#179800]">Services</h1>
             <div class="flex lg:flex-row flex-col mx-auto lg:gap-[24px] gap-y-5 mb-[48px] lg:mb-[140px] ">
-                <div class="flex flex-col items-center text-center  bg-[#EFEBE3] lg:rounded-2xl rounded-[13.45px] p-[26px]">
+                <div
+                    class="flex flex-col items-center text-center  bg-[#EFEBE3] lg:rounded-2xl rounded-[13.45px] p-[26px]">
                     <img class="bg-white rounded-full p-[21px] object-cover" src="c2-assets/service.png" alt="">
-                    <h3 class="font-semibold text-[20px] lg:text-[24px] mt-[20px] mb-[10px] lg:mt-[24px] lg:mb-[12px] ">24/7 Services </h3>
-                    <p class="lg:text-[20px] font-light">Fresh groceries delivered 24/7—quality products, unbeatable prices, and fast doorstep service!</p>
+                    <h3 class="font-semibold text-[20px] lg:text-[24px] mt-[20px] mb-[10px] lg:mt-[24px] lg:mb-[12px] ">
+                        24/7 Services </h3>
+                    <p class="lg:text-[20px] font-light">Fresh groceries delivered 24/7—quality products, unbeatable
+                        prices, and fast doorstep service!</p>
                 </div>
 
-                <div class="flex flex-col items-center text-center  bg-[#EFEBE3] lg:rounded-2xl rounded-[13.45px] p-[26px]">
+                <div
+                    class="flex flex-col items-center text-center  bg-[#EFEBE3] lg:rounded-2xl rounded-[13.45px] p-[26px]">
                     <img class="bg-white rounded-full p-[21px] object-cover" src="c2-assets/delivery.png" alt="">
-                    <h3 class="font-semibold text-[20px] lg:text-[24px] mt-[20px] mb-[10px] lg:mt-[24px] lg:mb-[12px] ">Fast Delivery</h3>
-                    <p class="lg:text-[20px] font-light">Get fresh groceries fast—lightning-speed delivery, quality products, and convenience at your doorstep!</p>
+                    <h3 class="font-semibold text-[20px] lg:text-[24px] mt-[20px] mb-[10px] lg:mt-[24px] lg:mb-[12px] ">
+                        Fast Delivery</h3>
+                    <p class="lg:text-[20px] font-light">Get fresh groceries fast—lightning-speed delivery, quality
+                        products, and convenience at your doorstep!</p>
                 </div>
 
-                <div class="flex flex-col items-center text-center  bg-[#EFEBE3] lg:rounded-2xl rounded-[13.45px] p-[26px]">
+                <div
+                    class="flex flex-col items-center text-center  bg-[#EFEBE3] lg:rounded-2xl rounded-[13.45px] p-[26px]">
                     <img class="bg-white rounded-full p-[21px] object-cover" src="c2-assets/healthy.png" alt="">
-                    <h3 class="font-semibold text-[20px] lg:text-[24px] mt-[20px] mb-[10px] lg:mt-[24px] lg:mb-[12px] ">Healthy Products</h3>
-                    <p class="lg:text-[20px] font-light">Shop fresh, organic, and healthy groceries—quality products for a nutritious lifestyle every day!</p>
+                    <h3 class="font-semibold text-[20px] lg:text-[24px] mt-[20px] mb-[10px] lg:mt-[24px] lg:mb-[12px] ">
+                        Healthy Products</h3>
+                    <p class="lg:text-[20px] font-light">Shop fresh, organic, and healthy groceries—quality products for
+                        a nutritious lifestyle every day!</p>
                 </div>
             </div>
-         </section>
+        </section>
 
         <!-- Popular Products section -->
 
         <section class="bg-[#EFEBE3]">
-            <div class="lg:w-[1320px] w-11/12 mx-auto pb-[48px] lg:pb-[100px]" >
-                <h1 class="pt-[48px] mb-[32px] text-[24px] lg:text-[36px] font-semibold text-[#179800]">Popular Products</h1>
-            <div class="flex flex-col lg:flex-row lg:gap-[24px]">
-                <div class="bg-gradient-to-tl from-[#f7e8b7] to-green-600 rounded-lg mb-[24px] lg:w-[424px] lg:h-[402px] ">
-                    <div class="pl-[20px]">
-                        <h3 class="text-white font-semibold text-[28px] pt-[40px] pb-[22px] "> 30% off </h3>
-                        <p class="pb-[18px]">Discover a world of treats, toys, and essentials handpicked for</p>
-                        <button class="btn px-[20px] text-[22px] font-normal">Buy Now</button>
-                    </div>
-                    <div class="-mt-16 pl-[150px] lg:-mt-[70px]">
-                        <img  src="c2-assets/vegetable-offer.png" alt=""></div>
-                </div>
-                <div class="grid grid-cols-2 gap-[14px] gap-x-3 lg:grid-cols-3">
-                    <div class="flex bg-white items-center gap-[10px] rounded-md w-[190px] lg:w-[275px]">
-                        <div><img class=" bg-[#EFEBE3] rounded-md my-[10px] ml-[10px] lg:ml-[16px]" src="c2-assets/oni.png" alt=""></div>
-                        <div class="flex flex-col gap-1">
-                            <p class="flex items-center gap-[6px] text-[10px] font-normal lg:text-[16px]">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="size-4 fill-yellow-500 stroke-yellow-500 lg:size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" 
-                                      d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
-                                  </svg>
-                                  4.5
-                        </p>
-                        <h4 class="text-[12.5px] font-medium lg:text-[20px]">Onion 1 KG</h4>
-                        <h6 class="text-[10px] font-medium lg:text-[16px]">$39.99</h6>
+            <div class="lg:w-[1320px] w-11/12 mx-auto pb-[48px] lg:pb-[100px]">
+                <h1 class="pt-[48px] mb-[32px] text-[24px] lg:text-[36px] font-semibold text-[#179800] lg:pt-[100px]">
+                    Popular Products</h1>
+                <div class="flex flex-col lg:flex-row lg:gap-[24px]">
+                    <div
+                        class="bg-gradient-to-tl from-[#f7e8b7] to-green-600 rounded-lg mb-[24px] lg:w-[424px] lg:h-[402px] ">
+                        <div class="pl-[20px]">
+                            <h3 class="text-white font-semibold text-[28px] pt-[40px] pb-[22px] "> 30% off </h3>
+                            <p class="pb-[18px]">Discover a world of treats, toys, and essentials handpicked for</p>
+                            <button class="btn px-[20px] text-[22px] font-normal">Buy Now</button>
+                        </div>
+                        <div class="-mt-16 pl-[150px] lg:-mt-[70px]">
+                            <img src="c2-assets/vegetable-offer.png" alt="">
                         </div>
                     </div>
-                    <div class="flex bg-white items-center gap-[10px] rounded-md w-[190px] lg:w-[275px]">
-                        <div><img class=" bg-[#EFEBE3] rounded-md my-[10px] ml-[10px] lg:ml-[16px]" src="c2-assets/toma.png" alt=""></div>
-                        <div class="flex flex-col gap-1">
-                            <p class="flex items-center gap-[6px] text-[10px] font-normal lg:text-[16px]">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="size-4 fill-yellow-500 stroke-yellow-500 lg:size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" 
-                                      d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
-                                  </svg>
-                                  4.5
-                        </p>
-                        <h4 class="text-[12.5px] font-medium lg:text-[20px]">Tomato 500 g</h4>
-                        <h6 class="text-[10px] font-medium lg:text-[16px]">$39.99</h6>
-                        </div>
-                    </div>
-                    <div class="flex bg-white items-center gap-[10px] rounded-md w-[190px] lg:w-[275px]">
-                        <div><img class=" bg-[#EFEBE3] rounded-md my-[10px] ml-[10px] lg:ml-[16px]" src="c2-assets/potu.png" alt=""></div>
-                        <div class="flex flex-col gap-1">
-                            <p class="flex items-center gap-[6px] text-[10px] font-normal lg:text-[16px]">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="size-4 fill-yellow-500 stroke-yellow-500 lg:size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" 
-                                      d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
-                                  </svg>
-                                  4.5
-                        </p>
-                        <h4 class="text-[12.5px] font-medium lg:text-[20px]">Potato 1 KG</h4>
-                        <h6 class="text-[10px] font-medium lg:text-[16px]">$39.99</h6>
-                        </div>
-                    </div>
-                    <div class="flex bg-white items-center gap-[10px] rounded-md w-[190px] lg:w-[275px]">
-                        <div><img class=" bg-[#EFEBE3] rounded-md my-[10px] ml-[10px] lg:ml-[16px]" src="c2-assets/toma.png" alt=""></div>
-                        <div class="flex flex-col gap-1">
-                            <p class="flex items-center gap-[6px] text-[10px] font-normal lg:text-[16px]">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="size-4 fill-yellow-500 stroke-yellow-500 lg:size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" 
-                                      d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
-                                  </svg>
-                                  4.5
-                        </p>
-                        <h4 class="text-[12.5px] font-medium lg:text-[20px]">Tomato 500 g</h4>
-                        <h6 class="text-[10px] font-medium lg:text-[16px]">$39.99</h6>
-                        </div>
-                    </div>
-                    <div class="flex bg-white items-center gap-[10px] rounded-md w-[190px] lg:w-[275px]">
-                        <div><img class=" bg-[#EFEBE3] rounded-md my-[10px] ml-[10px] lg:ml-[16px]" src="c2-assets/potu.png" alt=""></div>
-                        <div class="flex flex-col gap-1">
-                            <p class="flex items-center gap-[6px] text-[10px] font-normal lg:text-[16px]">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="size-4 fill-yellow-500 stroke-yellow-500 lg:size-6 ">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" 
-                                      d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
-                                  </svg>
-                                  4.5
-                        </p>
-                        <h4 class="text-[12.5px] font-medium lg:text-[20px]">Potato 1 KG</h4>
-                        <h6 class="text-[10px] font-medium lg:text-[16px]">$39.99</h6>
-                        </div>
-                    </div>
-                    <div class="flex bg-white items-center gap-[10px] rounded-md w-[190px] lg:w-[275px]">
-                        <div><img class=" bg-[#EFEBE3] rounded-md my-[10px] ml-[10px] lg:ml-[16px]" src="c2-assets/oni.png" alt=""></div>
-                        <div class="flex flex-col gap-1">
-                            <p class="flex items-center gap-[6px] text-[10px] font-normal lg:text-[16px]">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="size-4 fill-yellow-500 stroke-yellow-500 lg:size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" 
-                                      d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
-                                  </svg>
-                                  4.5
-                        </p>
-                        <h4 class="text-[12.5px] font-medium lg:text-[20px]">Onion 1 KG</h4>
-                        <h6 class="text-[10px] font-medium lg:text-[16px]">$39.99</h6>
-                        </div>
-                    </div>
-                    <div class="flex bg-white items-center gap-[10px] rounded-md w-[190px] lg:w-[275px] lg:h-[118px]">
-                        <div><img class=" bg-[#EFEBE3] rounded-md my-[10px] ml-[10px] lg:ml-[16px]" src="c2-assets/potu.png" alt=""></div>
-                        <div class="flex flex-col gap-1">
-                            <p class="flex items-center gap-[6px] text-[10px] font-normal lg:text-[16px]">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="size-4 fill-yellow-500 stroke-yellow-500 lg:size-6">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" 
-                                      d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
-                                  </svg>
-                                  4.5
-                        </p>
-                        <h4 class="text-[12.5px] font-medium lg:text-[20px]">Potato 1 KG</h4>
-                        <h6 class="text-[10px] font-medium lg:text-[16px]">$39.99</h6>
-                        </div>
-                    </div>
-                    <div class="flex bg-white items-center gap-[10px] rounded-md w-[190px] lg:w-[275px] lg:h-[118px]">
-                        <div><img class=" bg-[#EFEBE3] rounded-md my-[10px] ml-[10px] lg:ml-[16px]" src="c2-assets/oni.png" alt=""></div>
-                        <div class="flex flex-col gap-1">
-                            <p class="flex items-center gap-[6px] text-[10px] font-normal lg:text-[16px]">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class=" lg:size-6 size-4 fill-yellow-500 stroke-yellow-500">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" 
-                                      d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
-                                  </svg>
-                                  4.5
-                        </p>
-                        <h4 class="text-[12.5px] font-medium lg:text-[20px]">Onion 1 KG</h4>
-                        <h6 class="text-[10px] font-medium lg:text-[16px]">$39.99</h6>
-                        </div>
-                    </div>
-                    <div class="hidden lg:block">
-                        <div class="flex bg-white items-center gap-[10px] rounded-md w-[190px] lg:w-[275px] lg:h-[118px]">
-                            <div><img class=" bg-[#EFEBE3] rounded-md my-[10px] ml-[10px] lg:ml-[16px]" src="c2-assets/toma.png" alt=""></div>
-                            <div class="flex flex-col gap-1 ">
+                    <div class="grid grid-cols-2 gap-[14px] gap-x-3 lg:grid-cols-3">
+                        <div class="flex bg-white items-center gap-[10px] rounded-md w-[190px] lg:w-[275px]">
+                            <div><img class=" bg-[#EFEBE3] rounded-md my-[10px] ml-[10px] lg:ml-[16px]"
+                                    src="c2-assets/oni.png" alt=""></div>
+                            <div class="flex flex-col gap-1">
                                 <p class="flex items-center gap-[6px] text-[10px] font-normal lg:text-[16px]">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class=" lg:size-6  size-4 fill-yellow-500 stroke-yellow-500">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" 
-                                          d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
-                                      </svg>
-                                      4.5
-                            </p>
-                            <h4 class="text-[12.5px] font-medium lg:text-[20px]">Tomato 500 g </h4>
-                            <h6 class="text-[10px] font-medium lg:text-[16px]">$39.99</h6>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        class="size-4 fill-yellow-500 stroke-yellow-500 lg:size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                            d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                    </svg>
+                                    4.5
+                                </p>
+                                <h4 class="text-[12.5px] font-medium lg:text-[20px]">Onion 1 KG</h4>
+                                <h6 class="text-[10px] font-medium lg:text-[16px]">$39.99</h6>
                             </div>
                         </div>
+                        <div class="flex bg-white items-center gap-[10px] rounded-md w-[190px] lg:w-[275px]">
+                            <div><img class=" bg-[#EFEBE3] rounded-md my-[10px] ml-[10px] lg:ml-[16px]"
+                                    src="c2-assets/toma.png" alt=""></div>
+                            <div class="flex flex-col gap-1">
+                                <p class="flex items-center gap-[6px] text-[10px] font-normal lg:text-[16px]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        class="size-4 fill-yellow-500 stroke-yellow-500 lg:size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                            d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                    </svg>
+                                    4.5
+                                </p>
+                                <h4 class="text-[12.5px] font-medium lg:text-[20px]">Tomato 500 g</h4>
+                                <h6 class="text-[10px] font-medium lg:text-[16px]">$39.99</h6>
+                            </div>
+                        </div>
+                        <div class="flex bg-white items-center gap-[10px] rounded-md w-[190px] lg:w-[275px]">
+                            <div><img class=" bg-[#EFEBE3] rounded-md my-[10px] ml-[10px] lg:ml-[16px]"
+                                    src="c2-assets/potu.png" alt=""></div>
+                            <div class="flex flex-col gap-1">
+                                <p class="flex items-center gap-[6px] text-[10px] font-normal lg:text-[16px]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        class="size-4 fill-yellow-500 stroke-yellow-500 lg:size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                            d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                    </svg>
+                                    4.5
+                                </p>
+                                <h4 class="text-[12.5px] font-medium lg:text-[20px]">Potato 1 KG</h4>
+                                <h6 class="text-[10px] font-medium lg:text-[16px]">$39.99</h6>
+                            </div>
+                        </div>
+                        <div class="flex bg-white items-center gap-[10px] rounded-md w-[190px] lg:w-[275px]">
+                            <div><img class=" bg-[#EFEBE3] rounded-md my-[10px] ml-[10px] lg:ml-[16px]"
+                                    src="c2-assets/toma.png" alt=""></div>
+                            <div class="flex flex-col gap-1">
+                                <p class="flex items-center gap-[6px] text-[10px] font-normal lg:text-[16px]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        class="size-4 fill-yellow-500 stroke-yellow-500 lg:size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                            d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                    </svg>
+                                    4.5
+                                </p>
+                                <h4 class="text-[12.5px] font-medium lg:text-[20px]">Tomato 500 g</h4>
+                                <h6 class="text-[10px] font-medium lg:text-[16px]">$39.99</h6>
+                            </div>
+                        </div>
+                        <div class="flex bg-white items-center gap-[10px] rounded-md w-[190px] lg:w-[275px]">
+                            <div><img class=" bg-[#EFEBE3] rounded-md my-[10px] ml-[10px] lg:ml-[16px]"
+                                    src="c2-assets/potu.png" alt=""></div>
+                            <div class="flex flex-col gap-1">
+                                <p class="flex items-center gap-[6px] text-[10px] font-normal lg:text-[16px]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        class="size-4 fill-yellow-500 stroke-yellow-500 lg:size-6 ">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                            d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                    </svg>
+                                    4.5
+                                </p>
+                                <h4 class="text-[12.5px] font-medium lg:text-[20px]">Potato 1 KG</h4>
+                                <h6 class="text-[10px] font-medium lg:text-[16px]">$39.99</h6>
+                            </div>
+                        </div>
+                        <div class="flex bg-white items-center gap-[10px] rounded-md w-[190px] lg:w-[275px]">
+                            <div><img class=" bg-[#EFEBE3] rounded-md my-[10px] ml-[10px] lg:ml-[16px]"
+                                    src="c2-assets/oni.png" alt=""></div>
+                            <div class="flex flex-col gap-1">
+                                <p class="flex items-center gap-[6px] text-[10px] font-normal lg:text-[16px]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        class="size-4 fill-yellow-500 stroke-yellow-500 lg:size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                            d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                    </svg>
+                                    4.5
+                                </p>
+                                <h4 class="text-[12.5px] font-medium lg:text-[20px]">Onion 1 KG</h4>
+                                <h6 class="text-[10px] font-medium lg:text-[16px]">$39.99</h6>
+                            </div>
+                        </div>
+                        <div
+                            class="flex bg-white items-center gap-[10px] rounded-md w-[190px] lg:w-[275px] lg:h-[118px]">
+                            <div><img class=" bg-[#EFEBE3] rounded-md my-[10px] ml-[10px] lg:ml-[16px]"
+                                    src="c2-assets/potu.png" alt=""></div>
+                            <div class="flex flex-col gap-1">
+                                <p class="flex items-center gap-[6px] text-[10px] font-normal lg:text-[16px]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        class="size-4 fill-yellow-500 stroke-yellow-500 lg:size-6">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                            d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                    </svg>
+                                    4.5
+                                </p>
+                                <h4 class="text-[12.5px] font-medium lg:text-[20px]">Potato 1 KG</h4>
+                                <h6 class="text-[10px] font-medium lg:text-[16px]">$39.99</h6>
+                            </div>
+                        </div>
+                        <div
+                            class="flex bg-white items-center gap-[10px] rounded-md w-[190px] lg:w-[275px] lg:h-[118px]">
+                            <div><img class=" bg-[#EFEBE3] rounded-md my-[10px] ml-[10px] lg:ml-[16px]"
+                                    src="c2-assets/oni.png" alt=""></div>
+                            <div class="flex flex-col gap-1">
+                                <p class="flex items-center gap-[6px] text-[10px] font-normal lg:text-[16px]">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                        class=" lg:size-6 size-4 fill-yellow-500 stroke-yellow-500">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                            d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                    </svg>
+                                    4.5
+                                </p>
+                                <h4 class="text-[12.5px] font-medium lg:text-[20px]">Onion 1 KG</h4>
+                                <h6 class="text-[10px] font-medium lg:text-[16px]">$39.99</h6>
+                            </div>
+                        </div>
+                        <div class="hidden lg:block">
+                            <div
+                                class="flex bg-white items-center gap-[10px] rounded-md w-[190px] lg:w-[275px] lg:h-[118px]">
+                                <div><img class=" bg-[#EFEBE3] rounded-md my-[10px] ml-[10px] lg:ml-[16px]"
+                                        src="c2-assets/toma.png" alt=""></div>
+                                <div class="flex flex-col gap-1 ">
+                                    <p class="flex items-center gap-[6px] text-[10px] font-normal lg:text-[16px]">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                            class=" lg:size-6  size-4 fill-yellow-500 stroke-yellow-500">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                                d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                        </svg>
+                                        4.5
+                                    </p>
+                                    <h4 class="text-[12.5px] font-medium lg:text-[20px]">Tomato 500 g </h4>
+                                    <h6 class="text-[10px] font-medium lg:text-[16px]">$39.99</h6>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
-                    
+        </section>
+
+        <!-- Arrival & Offers -->
+
+        <section class="lg:w-[1320px] w-11/12 mx-auto pb-[48px]">
+
+            <h1 class="pt-[48px] mb-[32px] text-[24px] lg:text-[36px] font-semibold text-[#179800] lg:mt-[100px]">Arrival & Offers
+            </h1>
+            <div class=" flex flex-col gap-y-[18px] lg:flex-row justify-between lg:mb-[100px] ">
+                <div class="bg-[#115414] flex justify-between rounded-xl lg:w-[780px] lg:h-[344px] ">
+                    <div class="pl-[19px] lg:pl-[40px]">
+                        <img class="pt-[26px] w-[113.4px] mb-[17px] lg:mb-[31px] lg:w-[246.63px]" src="c2-assets/dawat-logo.png" alt="">
+                        <button class="btn font-normal text-white bg-[#63B76D] px-[18px] border-none mb-[14px]  lg:w-[280px] lg:h-[65px] lg:text-[23.27px] ">Cook Exotic Dishes</button>
+                        <h3 class="text-white text-[22.13px] lg:text-[39.88px] lg:mt-[20px] ">UP to <span class="font-bold">20% OFF</span></h3>
+                    </div>
+
+                    <div><img class="h-[172px] mt-[18px] lg:h-[320.82px] " src="c2-assets/dawat-mock-up.png" alt=""></div>
                 </div>
+
+                <div class="bg-[#102861] flex justify-between rounded-xl lg:rounded-3xl lg:w-[520px] lg:h-[344px]">
+                    <div class="pl-[19px] lg:pl-[27px]"><img class="pt-[11px] lg:pt-[19px] w-[64.53px] mb-[4px] lg:mb-[17px] lg:w-[93.57px]  " src="c2-assets/india-gate-logo.png" alt=""><button class="btn font-normal text-white bg-[#2A4D97] px-[18px] border-none mb-[14px] lg:w-[280px] lg:h-[65px] lg:text-[23.27px] ">World’s No.1 Rice</button>
+                        <h3 class="text-white text-[22.13px] lg:text-[39.88px] lg:mt-[20px] mb-[20px]">UP to <span class="font-bold">40% OFF</span></h3>
+                    </div>
+
+                    <div><img class="h-[190.49px] lg:h-[287.5px] mt-[26px] lg:mt-[48px] mr-[10px]" src="c2-assets/india-gate-mock-up.png" alt=""></div>
+                </div>
+            </div>
+
         </section>
 
 
